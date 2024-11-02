@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    display: flex;
+    width: 300%;
+    height: 100vh;
+    padding: 16px;
+    background-color: rgb(226 232 240);
+    
+    
+}
+.menu {
+   align-self: flex-start;
+   border: none;
+   cursor: pointer;
+    margin-bottom: 16px;
+    height: 25px;
+    width: 25px;
+    border-radius: 25px;
+    border: none;
+    background-color:  rgb(203 213 225);
+}
+
+.search-bar {
+    width: 10%;
+    position: relative;
+    border-radius: 5px;
+}
+.search-input {
+    padding: 8px 36px 8px 8px;
+    font-size: 16px;
+    border: none;
+}
+.search-icon {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    pointer-events: none;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 10%;
+   
+
+}
+.camera-button {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(203 213 225);;
+}
+.pen-button {
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(203 213 225);;
+}
